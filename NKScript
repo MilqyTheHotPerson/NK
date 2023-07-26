@@ -45,7 +45,7 @@ Currently, "Yaramo" or "Mantle"
 local ToggleKey = Enum.KeyCode.L
 local Settings = {
     Region = "Outerwall", -- Dive starting region, specified region need to be unlocked first
-    LeaveAtRegion = "Midnight", -- nil for completing until Dreams, put your desired area if you want to leave at specify area example "Shallows"
+    LeaveAtRegion = "Junction", -- nil for completing until Dreams, put your desired area if you want to leave at specify area example "Shallows"
     Difficulty = "very easy",
     Special = false, 
     NextRegion = true, -- Keep it true so you can synced all the items from the dive
