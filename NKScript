@@ -45,13 +45,13 @@ Currently, "Yaramo" or "Mantle"
 local ToggleKey = Enum.KeyCode.L
 local Settings = {
     Region = "Outerwall", -- Dive starting region, specified region need to be unlocked first
-    LeaveAtRegion = "Midnight", -- nil for completing until Dreams, put your desired area if you want to leave at specify area example "Shallows"
+    LeaveAtRegion = "Junction", -- nil for completing until Dreams, put your desired area if you want to leave at specify area example "Shallows"
     Difficulty = "very easy",
     Special = false, 
     NextRegion = true, -- Keep it true so you can synced all the items from the dive
     AutoSell = true,
     TempFarm = false, -- Pillar Farm and SYNC farm
-	RarityFilterGear = "Legendary", -- Examples: "Pristine" Ignores Pristine and above, "Legendary" Ignores Legendary and above. Filters: Pristine, Experimental, Legendary, Alpha, Omega, Core
+	RarityFilterGear = "Experimental", -- Examples: "Pristine" Ignores Pristine and above, "Legendary" Ignores Legendary and above. Filters: Pristine, Experimental, Legendary, Alpha, Omega, Core
 	RarityFilterGun = "Legendary",
 	Path = {
 		"Yaramo" --"Yaramo" or "Mantle"
